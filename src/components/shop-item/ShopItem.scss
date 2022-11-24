@@ -1,0 +1,41 @@
+
+.Homepage-image{
+    width: 100%;
+    height: 70%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    object-fit: contain;
+
+}
+.Pricetag {
+    color: rgb(160, 112, 205); 
+    display: flex;   
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 7px;
+    @media only screen and (max-width: 660px){
+        word-break: break-all;
+        
+    }
+
+}
+
+.Tittle {
+    color: rgb(160, 112, 205);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 7px;
+}
+.Shopping-item-container {
+    width: 25vw;
+    display: inline-block;
+    box-shadow: 2px 2px 20px rgb(72, 49, 94);
+    border-radius: 5px; 
+    margin: 2% auto;
+    height: 45vh;
+    cursor: pointer;
+    @media only screen and (max-width: 660px){
+        height: 49vh;
+        padding-bottom: 95px;
+    }
+
+}

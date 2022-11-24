@@ -1,0 +1,67 @@
+.Description{
+font-size: large;
+font-family: 'Courier New', Courier, monospace;
+}
+
+.Title {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.Price{
+    font-size:x-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.Text {
+    margin-top: 50px;
+    margin-left: 70px;
+    font-size: 50%;
+}
+
+.Product-page{
+    display: flex;
+    margin-left: 50px;
+    @media only screen and (max-width: 660px){
+        display: block;
+        margin: auto;
+    }
+}
+
+.button-reset {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 15%;
+    margin-top: 80px;
+    @media only screen and (max-width: 660px){
+       margin-top: 20px;
+        
+    }
+}
+
+.dropdown{
+   margin-right: 20px;
+   @media only screen and (max-width: 660px){
+    margin-top: 10px;   
+ }
+}
+
+.dropdown-container {
+    display: flex;
+    gap: 20px;
+    @media only screen and (max-width: 660px){
+        display: block;
+        
+    }
+}
+

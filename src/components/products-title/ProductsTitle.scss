@@ -1,0 +1,16 @@
+
+.Our-products {
+    margin: auto;
+    text-align: center;
+    width: 70vw;
+    gap: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 150px;
+    margin-top: 30px;
+    font-size: x-large;
+    color: rgb(160, 112, 205);
+    @media only screen and (max-width: 660px){
+        margin: auto;
+        
+    }
+}
